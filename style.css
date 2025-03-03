@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Figtree:wght@600;800&family=League+Spartan:wght@400;500;700&family=Manrope:wght@600&family=Open+Sans:wght@400;600;700;800&family=Outfit:wght@300&family=Poppins:wght@400;500;600;900&family=Roboto+Mono:wght@500&display=swap");
+
+* {
+  font-family: "Figtree";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(47, 88%, 63%);
+}
+
+.container {
+  width: 350px;padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background: hsl(0, 0%, 100%);
+  gap: 15px;
+  border-radius: 16px;
+  border: 1px solid;
+  box-shadow: 8px 8px 0px 0px;
+}
+
+.container .imgbox img {
+  width: 100%;border-radius: 10px;
+}
+
+.container .textbox {
+  display: flex;flex-direction: column;gap: 12px;
+}
+
+.textbox span {
+    background: hsl(47, 88%, 63%);
+    display: inline-block;
+    border-radius: 4px;
+    padding: 4px 12px; 
+    font-weight: 800;
+    font-size: 14px;
+    width: fit-content;
+  }  
+
+.textbox p {
+  font-size: 15px;
+}
+
+.textbox .grey-color {
+  color: hsl(0, 0%, 50%);
+  font-weight: 400;
+}
+
+.textbox .avatar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 800;
+  font-size: 14px;
+  margin: 6px 0px;
+}
+.avatar img {
+  height: 26px;
+  margin-right: 10px;
+}
+
+.attribution {
+  margin-top: 40px;
+}
+
+@media screen and (max-width:500px){
+  .container{
+    width:90%;
+    margin: 2rem auto;
+  }
+
+.container .imgbox img {
+  width: 100%;
+}
+}
