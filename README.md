@@ -8,4 +8,4 @@ Easy to customize.
 
 Technologies Used:-
 HTML,
-CSS
+CSS.
